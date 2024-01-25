@@ -86,8 +86,11 @@ li {
 .line {
     width: 568px;
     height: 0px;
-    margin: 160px auto 27px;
     border: 1px solid #00BFA6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
 }
 
 footer {
@@ -95,4 +98,5 @@ footer {
     text-align: center;
     font-family: "JetBrains Mono";
     font-size: 14px;
+    margin-top: 27px;
 }
