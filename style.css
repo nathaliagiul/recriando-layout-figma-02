@@ -79,18 +79,15 @@ li {
 
 #padlock {
     position: fixed;
-    top: 638px;
+    top: 660px;
     bottom: 20px;
 }
 
 .line {
     width: 568px;
     height: 0px;
+    margin: 160px auto 20px;
     border: 1px solid #00BFA6;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-shrink: 0;
 }
 
 footer {
@@ -98,5 +95,4 @@ footer {
     text-align: center;
     font-family: "JetBrains Mono";
     font-size: 14px;
-    margin-top: 27px;
 }
